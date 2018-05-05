@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.openGate"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_ADMIN"
+        android:required="false" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Include required permissions for Google Maps API to run. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCpggZYEecnWnICfmwYNRY4RleVtWZ0weQ" />
+
+        <activity android:name="com.example.android.openGate.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.openGate.SettingsActivity"
+            android:label="Settings" >
+        </activity>
+
+        <provider
+            android:name="com.example.android.openGate.provider.PlaceContentProvider"
+            android:authorities="com.example.android.openGate"
+            android:exported="false" />
+
+        <receiver android:name="com.example.android.openGate.GeofenceBroadcastReceiver" />
+        <receiver android:name="org.altbeacon.beacon.startup.StartupBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="org.altbeacon.beacon.service.BeaconService"
+            android:enabled="true"
+            android:exported="false"
+            android:isolatedProcess="false"
+            android:label="beacon" />
+        <service
+            android:name="org.altbeacon.beacon.BeaconIntentProcessor"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="org.altbeacon.beacon.service.ScanJob"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+            <meta-data
+                android:name="immediateScanJobId"
+                android:value="208352939" />
+            <meta-data
+                android:name="periodicScanJobId"
+                android:value="208352940" />
+        </service>
+        <service
+            android:name="org.altbeacon.bluetooth.BluetoothTestJob"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+            <meta-data
+                android:name="jobId"
+                android:value="1799803768" />
+        </service>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.example.android.openGate.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

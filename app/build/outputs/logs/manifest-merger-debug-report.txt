@@ -1,0 +1,302 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:2:1-44:12
+MERGED from [com.android.support:preference-v7:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/preference-v7-27.1.1.aar/064bc18aa6b401ae1d450e533448a988/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dc4fc19410213dc9002b7fa172f9eb5c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/129bb1e0ce8972df03eb847d5e2318e7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-places:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-places-15.0.1.aar/261c4b9f3e9d26a0eac25d46d2c13e35/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/7e2d9ce6f5fbb0bae27a10598720da66/AndroidManifest.xml:2:1-9:12
+MERGED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:2:1-58:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/d686d48cf55b4900673aa811e1073c1c/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4623da6471ed0fe1d5002b7e37d82bf8/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/9cb337511bf20457c6ca273406064d04/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/6b8adc04db2a9f992a16476046cc4e68/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f6eacfa50c422b4051cbf74a6f2ebca8/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/5b323371309bc35c9b35efdaf7e96c59/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/38b08103d90bfe6e9a35d1216b6bb4f8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/44c041e0d75e55827f058a8733b894f6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/dcfd651d2bb849d28e27a2815c95a881/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/88c5588e72cb6fb6c801b278facd5944/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/df5e80cb2e68885f4e4c5ce53bba3cec/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/0bc5b1473836fd35920fef71e3c76a4b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/80069f818de3d3d7c03f9b631392cd79/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/e2393390f94a7d3240a1246e43b62be0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/89c584a404d629f6c02f8d5f32b5150c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1cd82dc00779d62213143004cc192e92/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f11a764ced77055a61eec6ef2d0b69a6/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:2:1-44:12
+	package
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:3:5-43
+		INJECTED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:2:1-44:12
+		INJECTED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:2:1-44:12
+		INJECTED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:5:5-69
+	android:name
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:5:22-66
+uses-permission#android.permission.INTERNET
+ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/d686d48cf55b4900673aa811e1073c1c/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/d686d48cf55b4900673aa811e1073c1c/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:7:22-76
+uses-sdk
+ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:8:5-10:41
+INJECTED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:8:5-10:41
+INJECTED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:preference-v7:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/preference-v7-27.1.1.aar/064bc18aa6b401ae1d450e533448a988/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v7:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/preference-v7-27.1.1.aar/064bc18aa6b401ae1d450e533448a988/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dc4fc19410213dc9002b7fa172f9eb5c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dc4fc19410213dc9002b7fa172f9eb5c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/129bb1e0ce8972df03eb847d5e2318e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/129bb1e0ce8972df03eb847d5e2318e7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-places-15.0.1.aar/261c4b9f3e9d26a0eac25d46d2c13e35/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-places-15.0.1.aar/261c4b9f3e9d26a0eac25d46d2c13e35/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/7e2d9ce6f5fbb0bae27a10598720da66/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/7e2d9ce6f5fbb0bae27a10598720da66/AndroidManifest.xml:5:5-44
+MERGED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:7:5-9:41
+MERGED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/d686d48cf55b4900673aa811e1073c1c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/d686d48cf55b4900673aa811e1073c1c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4623da6471ed0fe1d5002b7e37d82bf8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4623da6471ed0fe1d5002b7e37d82bf8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/9cb337511bf20457c6ca273406064d04/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/9cb337511bf20457c6ca273406064d04/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/6b8adc04db2a9f992a16476046cc4e68/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/6b8adc04db2a9f992a16476046cc4e68/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f6eacfa50c422b4051cbf74a6f2ebca8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f6eacfa50c422b4051cbf74a6f2ebca8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/5b323371309bc35c9b35efdaf7e96c59/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/5b323371309bc35c9b35efdaf7e96c59/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/38b08103d90bfe6e9a35d1216b6bb4f8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/38b08103d90bfe6e9a35d1216b6bb4f8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/44c041e0d75e55827f058a8733b894f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/44c041e0d75e55827f058a8733b894f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/dcfd651d2bb849d28e27a2815c95a881/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/dcfd651d2bb849d28e27a2815c95a881/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/88c5588e72cb6fb6c801b278facd5944/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/88c5588e72cb6fb6c801b278facd5944/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/df5e80cb2e68885f4e4c5ce53bba3cec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/df5e80cb2e68885f4e4c5ce53bba3cec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/0bc5b1473836fd35920fef71e3c76a4b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/0bc5b1473836fd35920fef71e3c76a4b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/80069f818de3d3d7c03f9b631392cd79/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/80069f818de3d3d7c03f9b631392cd79/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/e2393390f94a7d3240a1246e43b62be0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/e2393390f94a7d3240a1246e43b62be0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/89c584a404d629f6c02f8d5f32b5150c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/89c584a404d629f6c02f8d5f32b5150c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1cd82dc00779d62213143004cc192e92/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/1cd82dc00779d62213143004cc192e92/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f11a764ced77055a61eec6ef2d0b69a6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/Marco/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/f11a764ced77055a61eec6ef2d0b69a6/AndroidManifest.xml:20:5-44
+INJECTED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:8:5-10:41
+INJECTED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:8:5-10:41
+	android:targetSdkVersion
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:10:9-38
+		INJECTED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:9:9-35
+		INJECTED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:11:5-67
+MERGED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:11:5-13:36
+MERGED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:11:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:12:5-73
+MERGED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:14:5-16:36
+MERGED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:12:22-71
+application
+ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:14:5-42:19
+MERGED from [com.google.android.gms:play-services-places:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-places-15.0.1.aar/261c4b9f3e9d26a0eac25d46d2c13e35/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-places-15.0.1.aar/261c4b9f3e9d26a0eac25d46d2c13e35/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/7e2d9ce6f5fbb0bae27a10598720da66/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-location-15.0.1.aar/7e2d9ce6f5fbb0bae27a10598720da66/AndroidManifest.xml:7:5-20
+MERGED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:20:5-56:19
+MERGED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:20:5-56:19
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/d686d48cf55b4900673aa811e1073c1c/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/d686d48cf55b4900673aa811e1073c1c/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4623da6471ed0fe1d5002b7e37d82bf8/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4623da6471ed0fe1d5002b7e37d82bf8/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/9cb337511bf20457c6ca273406064d04/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-15.0.1.aar/9cb337511bf20457c6ca273406064d04/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/6b8adc04db2a9f992a16476046cc4e68/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/6b8adc04db2a9f992a16476046cc4e68/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f6eacfa50c422b4051cbf74a6f2ebca8/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f6eacfa50c422b4051cbf74a6f2ebca8/AndroidManifest.xml:22:5-26:19
+	android:supportsRtl
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:17:9-41
+	android:icon
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:19:9-40
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:20:9-22:71
+	android:value
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:22:13-68
+	android:name
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:21:13-58
+activity#com.example.android.openGate.MainActivity
+ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:24:9-29:20
+	android:name
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:24:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:25:13-28:29
+action#android.intent.action.MAIN
+ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:27:27-74
+activity#com.example.android.openGate.SettingsActivity
+ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:31:9-33:20
+	android:label
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:31:19-79
+provider#com.example.android.openGate.provider.PlaceContentProvider
+ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:35:9-38:40
+	android:authorities
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:37:13-63
+	android:exported
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:36:13-58
+receiver#com.example.android.openGate.GeofenceBroadcastReceiver
+ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:40:9-63
+	android:name
+		ADDED from /Users/Marco/Documents/callGate/app/src/main/AndroidManifest.xml:40:19-60
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:17:22-78
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:18:22-78
+receiver#org.altbeacon.beacon.startup.StartupBroadcastReceiver
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:21:9-27:20
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:21:19-87
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED+action:name:android.intent.action.BOOT_COMPLETED
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:22:13-26:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:23:17-79
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:23:25-76
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:24:17-87
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:24:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:25:17-90
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:25:25-87
+service#org.altbeacon.beacon.service.BeaconService
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:29:9-34:38
+	android:enabled
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:31:13-35
+	android:label
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:34:13-35
+	android:exported
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:32:13-37
+	android:isolatedProcess
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:33:13-44
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:30:13-70
+service#org.altbeacon.beacon.BeaconIntentProcessor
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:36:13-70
+service#org.altbeacon.beacon.service.ScanJob
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:39:9-48:19
+	android:permission
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:41:13-69
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:40:13-64
+meta-data#immediateScanJobId
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:42:13-44:45
+	android:value
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:44:17-42
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:43:17-50
+meta-data#periodicScanJobId
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:45:13-47:45
+	android:value
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:47:17-42
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:46:17-49
+service#org.altbeacon.bluetooth.BluetoothTestJob
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:49:9-55:19
+	android:permission
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:51:13-69
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:50:13-68
+meta-data#jobId
+ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:52:13-54:46
+	android:value
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:54:17-43
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.13.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/android-beacon-library-2.13.1.aar/3f15c0816a0cd47591fa1eac8a63dd92/AndroidManifest.xml:53:17-37
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/d686d48cf55b4900673aa811e1073c1c/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/d686d48cf55b4900673aa811e1073c1c/AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/d686d48cf55b4900673aa811e1073c1c/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/d686d48cf55b4900673aa811e1073c1c/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/d686d48cf55b4900673aa811e1073c1c/AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4623da6471ed0fe1d5002b7e37d82bf8/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4623da6471ed0fe1d5002b7e37d82bf8/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4623da6471ed0fe1d5002b7e37d82bf8/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/4623da6471ed0fe1d5002b7e37d82bf8/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f6eacfa50c422b4051cbf74a6f2ebca8/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f6eacfa50c422b4051cbf74a6f2ebca8/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/Marco/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/f6eacfa50c422b4051cbf74a6f2ebca8/AndroidManifest.xml:24:13-58
