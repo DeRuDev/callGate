@@ -18,8 +18,10 @@ public class SettingsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
         String address = "";
+        String name = "";
         if (getIntent().getExtras() != null) {
             address = getIntent().getExtras().getString("LOCATION");
+            name = getIntent().getExtras().getString("NAME");
         }
 
         if (savedInstanceState == null) {
@@ -27,6 +29,7 @@ public class SettingsActivity extends AppCompatActivity {
 
             Bundle args = new Bundle();
             args.putString("LOCATION", address);
+            args.putString("NAME", name);
             fragment.setArguments(args);
 
             getSupportFragmentManager().beginTransaction()

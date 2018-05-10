@@ -53,20 +53,20 @@ import org.altbeacon.beacon.Region;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+import java.util.UUID;
 
 /**
  * Created by Marco on 25/03/18.
  */
 
-public class MainActivity extends AppCompatActivity implements BeaconConsumer, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener
+public class MainActivity extends AppCompatActivity implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener
         , LoaderManager.LoaderCallbacks<Cursor> {
 
     // Constants
     public static final String TAG = MainActivity.class.getSimpleName();
     private static final int PERMISSIONS_REQUEST_FINE_LOCATION = 111;
     private static final int PLACE_PICKER_REQUEST = 1;
-    private static final String UNIQUE_ID = "Package_Name_With_Identifier";
-    private static final String PROXIMITY_UUID = "BEACON_UID";
+
 
     // Member variables
     private PlaceListAdapter mAdapter;
@@ -74,11 +74,6 @@ public class MainActivity extends AppCompatActivity implements BeaconConsumer, G
     private GoogleApiClient mClient;
     private Geofencing mGeofencing;
     private Boolean mIsEnabled;
-
-    //Beacon Variables
-    private BeaconManager beaconManager;
-
-
 
     /**
      * Called when the activity is starting
@@ -122,20 +117,7 @@ public class MainActivity extends AppCompatActivity implements BeaconConsumer, G
                 .build();
 
         mGeofencing = new Geofencing(this, mClient);
-
-        //Creating the Beacon Identifier and a Region
-        beaconManager = BeaconManager.getInstanceForApplication(this);
-        beaconManager.getBeaconParsers().add(new BeaconParser()
-                .setBeaconLayout("m:2-3=0215,i:4-19,i:20-21,i:22-23,p:24-24"));//Descrive il formato dei bite che arrivano.
-        beaconManager.bind(this);
     }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        beaconManager.unbind(this);
-    }
-
     @Override
     public void onConnected(@Nullable Bundle connectionHint) {
         refreshPlacesData();
@@ -264,52 +246,6 @@ public class MainActivity extends AppCompatActivity implements BeaconConsumer, G
 
             // Get live data information
             refreshPlacesData();
-        }
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        return super.onOptionsItemSelected(item);
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        //inflater.inflate(R.menu.menu, menu);
-        return true;
-    }
-
-    @Override
-    public void onBeaconServiceConnect() {
-        final Region regionOne = new Region("myBeacon", Identifier.parse("5FF56717-97FE-4B88-8DFA-9B201000673C"), null,null);
-        beaconManager.addMonitorNotifier(new MonitorNotifier() {
-            @Override
-            public void didEnterRegion(Region region) {
-                Log.i(TAG,"I Just Saw a Beacon!! :)");
-                try {
-                    beaconManager.startRangingBeaconsInRegion(region);
-                } catch (RemoteException e) {
-                    e.printStackTrace();
-                }
-            }
-            @Override
-            public void didExitRegion(Region region) {
-                Log.i(TAG,"I No Longer See a Beacon :(");
-                try {
-                    beaconManager.stopRangingBeaconsInRegion(region);
-                } catch (RemoteException e) {
-                    e.printStackTrace();
-                }
-            }
-            @Override
-            public void didDetermineStateForRegion(int i, Region region){
-                Log.i(TAG,"The Status has Changed:");
-            }
-        });
-        try {
-            beaconManager.startMonitoringBeaconsInRegion(new Region("5FF56717-97FE-4B88-8DFA-9B201000673C",null, null, null));
-        } catch (RemoteException e) {
         }
     }
 }

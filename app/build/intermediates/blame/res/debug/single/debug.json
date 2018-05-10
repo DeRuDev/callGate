@@ -1224,10 +1224,6 @@
         "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dc4fc19410213dc9002b7fa172f9eb5c/res/drawable-mdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "/Users/Marco/Documents/callGate/app/build/intermediates/res/merged/debug/xml_pref_general.xml.flat",
-        "source": "/Users/Marco/Documents/callGate/app/src/main/res/xml/pref_general.xml"
-    },
-    {
         "merged": "/Users/Marco/Documents/callGate/app/build/intermediates/res/merged/debug/color_abc_primary_text_material_light.xml.flat",
         "source": "/Users/Marco/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/dc4fc19410213dc9002b7fa172f9eb5c/res/color/abc_primary_text_material_light.xml"
     },

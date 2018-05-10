@@ -20,7 +20,11 @@ import android.util.TypedValue;
  */
 
 public class SettingsFragment extends PreferenceFragmentCompat implements SharedPreferences.OnSharedPreferenceChangeListener {
+    private static final String TAG = "HELLO";
+
     private void setPreferenceSummary(android.support.v7.preference.Preference preference, Object value) {
+
+
         String stringValue = value.toString();
         String key = preference.getKey();
         if (preference instanceof ListPreference) {
@@ -40,6 +44,10 @@ public class SettingsFragment extends PreferenceFragmentCompat implements Shared
 
         String location = getArguments().getString("LOCATION");
         location = location.replace(" ", "");
+        String name = getArguments().getString("NAME");
+        if (name.indexOf(",") > 0){
+            name = name.substring(0, name.indexOf(","));
+        }
 
         Context activityContext = getActivity();
 
@@ -52,32 +60,35 @@ public class SettingsFragment extends PreferenceFragmentCompat implements Shared
 
         // We instance each Preference using our ContextThemeWrapper object
         PreferenceCategory preferenceCategory = new PreferenceCategory(contextThemeWrapper);
-        preferenceCategory.setTitle("Category test");
+        preferenceCategory.setTitle("Settings for "+ name);
 
         EditTextPreference editTextPreference = new EditTextPreference(contextThemeWrapper);
         editTextPreference.setKey("edittext" + location);
         editTextPreference.setTitle("Add Beacon UUID");
         editTextPreference.setSummary(getPreferenceScreen().getSharedPreferences().getString("edittext" + location, " no value"));
 
+        EditTextPreference editTextPreference2 = new EditTextPreference(contextThemeWrapper);
+        editTextPreference2.setKey("edittext2" + location);
+        editTextPreference2.setTitle("Add Phone Number To Call");
+        editTextPreference2.setSummary(getPreferenceScreen().getSharedPreferences().getString("edittext2" + location, " no value"));
+
         CheckBoxPreference checkBoxPreference = new CheckBoxPreference(contextThemeWrapper);
-        checkBoxPreference.setTitle("Checkbox test");
+        checkBoxPreference.setTitle("Call Both Ways");
         checkBoxPreference.setKey("checkbox" + location);
         checkBoxPreference.setChecked(true);
 
         ListPreference list = new ListPreference(contextThemeWrapper);
-        list.setTitle("Radius");
-        list.setEntries(new CharSequence[]{"0:", "15:", "30:"});
-        list.setEntryValues(new CharSequence[]{"0", "15", "30"});
-        list.setKey("list"+location);
-
-        // It's REALLY IMPORTANT to add Preferences with child Preferences to the Preference Hierarchy first
-        // Otherwise, the PreferenceManager will fail to load their keys
+        list.setTitle("Radius Accuracy");
+        list.setEntries(new CharSequence[]{"5 Meters", "10 Meters", "30 Meters"});
+        list.setEntryValues(new CharSequence[]{"5", "10", "30"});
+        list.setKey("list" + location);
 
         // First we add the category to the root PreferenceScreen
         getPreferenceScreen().addPreference(preferenceCategory);
 
         // Then their child to it
         preferenceCategory.addPreference(editTextPreference);
+        preferenceCategory.addPreference(editTextPreference2);
         preferenceCategory.addPreference(checkBoxPreference);
         preferenceCategory.addPreference(list);
 
@@ -106,6 +117,7 @@ public class SettingsFragment extends PreferenceFragmentCompat implements Shared
 
         String location = getArguments().getString("LOCATION");
         Log.d("SettingsFragment", "location is " + location);
+
     }
 
     @Override
@@ -113,5 +125,4 @@ public class SettingsFragment extends PreferenceFragmentCompat implements Shared
         super.onStop();
         getPreferenceScreen().getSharedPreferences().unregisterOnSharedPreferenceChangeListener(this);
     }
-
 }
