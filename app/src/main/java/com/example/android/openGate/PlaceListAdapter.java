@@ -1,7 +1,6 @@
 package com.example.android.openGate;
 
-import android.app.Activity;
-import android.content.Context;
+
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.widget.RecyclerView;
@@ -12,7 +11,11 @@ import android.widget.CompoundButton;
 import android.widget.Switch;
 import android.widget.TextView;
 
+import com.google.android.gms.location.places.Place;
 import com.google.android.gms.location.places.PlaceBuffer;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import static android.content.Context.MODE_PRIVATE;
 
@@ -22,8 +25,8 @@ import static android.content.Context.MODE_PRIVATE;
 
 public class PlaceListAdapter extends RecyclerView.Adapter<PlaceListAdapter.PlaceViewHolder> {
 
-    private Context mContext;
-    private PlaceBuffer mPlaces;
+    private MainActivity mContext;
+    private List<Place> mPlaceList;
     private SharedPreferences mSharedPrefs;
 
     /**
@@ -31,9 +34,9 @@ public class PlaceListAdapter extends RecyclerView.Adapter<PlaceListAdapter.Plac
      *
      * @param context the calling context/activity
      */
-    public PlaceListAdapter(Activity context, PlaceBuffer places) {
+    public PlaceListAdapter(MainActivity context) {
         this.mContext = context;
-        this.mPlaces = places;
+        mPlaceList = new ArrayList<>();
         mSharedPrefs =  context.getPreferences(MODE_PRIVATE);
     }
 
@@ -62,8 +65,8 @@ public class PlaceListAdapter extends RecyclerView.Adapter<PlaceListAdapter.Plac
      */
     @Override
     public void onBindViewHolder(final PlaceViewHolder holder, final int position) {
-        final String placeName = mPlaces.get(position).getName().toString();
-        String placeAddress = mPlaces.get(position).getAddress().toString();
+        final String placeName = mPlaceList.get(position).getName().toString();
+        String placeAddress = mPlaceList.get(position).getAddress().toString();
 
         holder.nameTextView.setText(placeName);
         holder.addressTextView.setText(placeAddress);
@@ -86,6 +89,13 @@ public class PlaceListAdapter extends RecyclerView.Adapter<PlaceListAdapter.Plac
                 mContext.startActivity(intent);
             }
         });
+        holder.nameTextView.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
+                removeElement(position);
+                return false;
+            }
+        });
     }
 
     /**
@@ -93,8 +103,11 @@ public class PlaceListAdapter extends RecyclerView.Adapter<PlaceListAdapter.Plac
      * whenever new places are added or changed from the list
      */
     public void swapPlaces(PlaceBuffer newPlaces) {
-        mPlaces = newPlaces;
-        if (mPlaces != null) {
+        if (newPlaces != null) {
+            mPlaceList.clear();
+            for (Place p : newPlaces) {
+                mPlaceList.add(p);
+            }
             //Then force the RecyclerView to refresh
             this.notifyDataSetChanged();
         }
@@ -107,10 +120,15 @@ public class PlaceListAdapter extends RecyclerView.Adapter<PlaceListAdapter.Plac
      */
     @Override
     public int getItemCount() {
-        if (mPlaces == null) return 0;
-        return mPlaces.getCount();
+        if (mPlaceList == null) return 0;
+        return mPlaceList.size();
     }
-
+    public void removeElement(int index) {
+        mContext.removePlace(index, mPlaceList.get(index));
+        mPlaceList.remove(index);
+        //Then force the RecyclerView to refresh
+        this.notifyDataSetChanged();
+    }
     /**
      * PlaceViewHolder class for the recycler view item
      */

@@ -1,4 +1,4 @@
-#Thu May 10 20:28:00 IST 2018
+#Sun May 13 18:45:05 IST 2018
 base.0=/Users/Marco/Documents/callGate/app/build/intermediates/transforms/dexMerger/debug/9
 path.0=classes.dex
 renamed.0=classes.dex

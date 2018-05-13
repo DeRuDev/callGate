@@ -11,7 +11,6 @@ import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.RemoteException;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
@@ -19,9 +18,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
@@ -41,19 +37,10 @@ import com.google.android.gms.location.places.PlaceBuffer;
 import com.google.android.gms.location.places.Places;
 import com.google.android.gms.location.places.ui.PlacePicker;
 
-import org.altbeacon.beacon.Beacon;
-import org.altbeacon.beacon.BeaconConsumer;
-import org.altbeacon.beacon.BeaconManager;
-import org.altbeacon.beacon.BeaconParser;
-import org.altbeacon.beacon.Identifier;
-import org.altbeacon.beacon.MonitorNotifier;
-import org.altbeacon.beacon.RangeNotifier;
-import org.altbeacon.beacon.Region;
+
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
-import java.util.UUID;
 
 /**
  * Created by Marco on 25/03/18.
@@ -88,7 +75,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         // Set up the recycler view
         mRecyclerView = (RecyclerView) findViewById(R.id.places_list_recycler_view);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-        mAdapter = new PlaceListAdapter(this, null);
+        mAdapter = new PlaceListAdapter(this);
         mRecyclerView.setAdapter(mAdapter);
 
         //Initialize the Switch status and Handle enable/disable switch change
@@ -239,6 +226,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
             String placeAddress = place.getAddress().toString();
             String placeID = place.getId();
 
+
             // Insert a new place into DB
             ContentValues contentValues = new ContentValues();
             contentValues.put(PlaceContract.PlaceEntry.COLUMN_PLACE_ID, placeID);
@@ -247,5 +235,24 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
             // Get live data information
             refreshPlacesData();
         }
+    }
+    public void removePlace(int index, Place place) {
+        // TODO remove place with index from contentResolver! (DONE)
+        String place_ID = place.getId();
+
+        String[] idArray = {"_id"};
+        String[] id = new String[]{place_ID};
+
+        Cursor indiceDataBase = getContentResolver().query(PlaceContract.PlaceEntry.CONTENT_URI,idArray,"placeID=?",id,null,null);
+        indiceDataBase.moveToFirst();
+        int numeroIndex = indiceDataBase.getInt(0);
+        String numeroFinale = String.valueOf(numeroIndex);
+        Log.i(TAG,"ECCOLO " + numeroFinale);
+
+
+        Uri uri = Uri.parse(PlaceContract.PlaceEntry.CONTENT_URI + "/" + numeroFinale);
+        String whereClause = PlaceContract.PlaceEntry.COLUMN_PLACE_ID;
+
+        getContentResolver().delete(uri,whereClause,id);
     }
 }

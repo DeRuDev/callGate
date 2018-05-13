@@ -7,22 +7,22 @@
     format="10"
     ir-eligibility="COMPATIBLE"
     plugin-version="3.1.2"
-    timestamp="1525980478923"
+    timestamp="1526233504102"
     token="5532117177529101192"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="129" />
+        duration="91" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1" />
+        duration="21" />
     <task
         name="verifier"
-        duration="0" />
+        duration="3" />
 
     <artifact
         location="/Users/Marco/Documents/callGate/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
@@ -33,7 +33,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1525969783637"
+        timestamp="1526215176978"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/Marco/Documents/callGate/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
@@ -74,8 +74,17 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="METHOD_DELETED"
-        timestamp="1525980219024"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1526229742113"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/Marco/Documents/callGate/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1526232472910"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/Marco/Documents/callGate/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
@@ -84,7 +93,7 @@
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1525980478923"
+        timestamp="1526233504102"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/Marco/Documents/callGate/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
